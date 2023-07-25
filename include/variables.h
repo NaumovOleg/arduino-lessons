@@ -20,9 +20,9 @@ void loops() {
   // здесь varL всегда будет равна 1
   // а varS - постоянно увеличиваться
   int index = 0;
-  for (; index < 60; index += 10) {
-    // переменная index принимает значения
-    // 0, 10, 20, 30, 40, 50
-  };
+  int ent = 3;
+  int *ptr_ent = &ent;
+  *ptr_ent = 3;
+  int &ptr_ent2 = ent;
 }
 #endif
